@@ -1,0 +1,104 @@
+{
+  "data_path": "data\\kidney_fl_5centers_dataset.csv",
+  "seed": 42,
+  "test_size": 0.2,
+  "val_size_of_train": 0.1,
+  "centers": [
+    {
+      "client_id": 0,
+      "center_code": "7905",
+      "n_total": 10002,
+      "n_train": 7200,
+      "n_val": 801,
+      "n_test": 2001,
+      "pos_rate_total": 0.12247550489902019,
+      "pos_rate_train": 0.1225,
+      "pos_rate_val": 0.12234706616729088,
+      "pos_rate_test": 0.12243878060969515,
+      "files": {
+        "train": "prepared\\clients\\client_0_train.csv",
+        "val": "prepared\\clients\\client_0_val.csv",
+        "test": "prepared\\clients\\client_0_test.csv"
+      }
+    },
+    {
+      "client_id": 1,
+      "center_code": "14942",
+      "n_total": 9063,
+      "n_train": 6525,
+      "n_val": 725,
+      "n_test": 1813,
+      "pos_rate_total": 0.13306852035749753,
+      "pos_rate_train": 0.1331800766283525,
+      "pos_rate_val": 0.13241379310344828,
+      "pos_rate_test": 0.1329288472145615,
+      "files": {
+        "train": "prepared\\clients\\client_1_train.csv",
+        "val": "prepared\\clients\\client_1_val.csv",
+        "test": "prepared\\clients\\client_1_test.csv"
+      }
+    },
+    {
+      "client_id": 2,
+      "center_code": "21080",
+      "n_total": 11168,
+      "n_train": 8040,
+      "n_val": 894,
+      "n_test": 2234,
+      "pos_rate_total": 0.10977793696275072,
+      "pos_rate_train": 0.10982587064676617,
+      "pos_rate_val": 0.10961968680089486,
+      "pos_rate_test": 0.10966875559534467,
+      "files": {
+        "train": "prepared\\clients\\client_2_train.csv",
+        "val": "prepared\\clients\\client_2_val.csv",
+        "test": "prepared\\clients\\client_2_test.csv"
+      }
+    },
+    {
+      "client_id": 3,
+      "center_code": "23901",
+      "n_total": 9519,
+      "n_train": 6853,
+      "n_val": 762,
+      "n_test": 1904,
+      "pos_rate_total": 0.1839478936863116,
+      "pos_rate_train": 0.18400700423172334,
+      "pos_rate_val": 0.1837270341207349,
+      "pos_rate_test": 0.18382352941176472,
+      "files": {
+        "train": "prepared\\clients\\client_3_train.csv",
+        "val": "prepared\\clients\\client_3_val.csv",
+        "test": "prepared\\clients\\client_3_test.csv"
+      }
+    },
+    {
+      "client_id": 4,
+      "center_code": "25110",
+      "n_total": 8360,
+      "n_train": 6019,
+      "n_val": 669,
+      "n_test": 1672,
+      "pos_rate_total": 0.1277511961722488,
+      "pos_rate_train": 0.12776208672536965,
+      "pos_rate_val": 0.12705530642750373,
+      "pos_rate_test": 0.12799043062200957,
+      "files": {
+        "train": "prepared\\clients\\client_4_train.csv",
+        "val": "prepared\\clients\\client_4_val.csv",
+        "test": "prepared\\clients\\client_4_test.csv"
+      }
+    }
+  ],
+  "global": {
+    "train": "prepared\\global_train.csv",
+    "val": "prepared\\global_val.csv",
+    "test": "prepared\\global_test.csv",
+    "n_train": 34637,
+    "n_val": 3851,
+    "n_test": 9624,
+    "pos_rate_train": 0.13465369402661892,
+    "pos_rate_val": 0.13425084393663983,
+    "pos_rate_test": 0.13455943474646717
+  }
+}

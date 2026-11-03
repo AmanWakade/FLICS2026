@@ -1,0 +1,122 @@
+/* EasyChair style sheet
+ * (c) 2015-2017 easychair.org
+ * (c) 2020 EasyChair Ltd
+ */
+
+div.menu {
+  background: #333;
+  padding: 0px 0px 0px 0px;
+  border-left: 10px solid #000;
+}
+
+.menu table.menu td.top { /* main menu */
+  padding:0px 8px 0px 8px;
+  color:#ededed;
+  white-space:nowrap;
+  background: #000 url('/images/b_short.gif') repeat-x top;
+  border: 1px solid #000;
+  border-right: 1px solid #676767;
+  cursor:pointer;
+  font-size:12px;
+  height:38px;
+}
+
+.menu:hover table.menu:hover td.top:hover { /* hover popup menu */
+  background: #000 url('/images/b_short_h.gif') repeat-x top;
+  border: 1px solid #999;
+  color:#fff;
+}
+
+.menu table.menu td.tab { /* popup menu */
+  padding: 6px 15px 5px 15px;
+  color: #043f76;
+  white-space: nowrap;
+  background-color: #d5cec4;
+  border-left: 1px solid #043f76;
+  border-top: 1px solid #043f76;
+  border-right: 1px solid #043f76;
+  font-family: Verdana,Arial,Helvetica,sans-serif;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.menu table.menu tr:last-child td.tab {
+  border-bottom: 1px solid #043f76;
+}
+
+.menu:hover table.menu:hover td.tab:hover { /* hover popup menu */
+  color:#d5cec4;
+  background-color:#333;
+}
+
+/* the leftmost top-level tab */
+.menu table.menu td.top:first-child {
+  padding:0px 8px 0px 8px;
+  color:#ededed;
+  white-space:nowrap;
+  background: #000 url('/images/b_short.gif') repeat-x top;
+  border: 1px solid #000;
+  border-right: 1px solid #676767;
+  cursor:pointer;
+  font-size:12px;
+  height:38px;
+}
+
+table.menu {
+  border: 0px;
+  padding: 0px;
+  visibility: hidden;
+  position: absolute;
+  border-spacing: 0;
+}
+
+.menu table.menu td.alerts {
+  padding:0px 8px 0px 8px;
+  color:#f5f212;
+  white-space:nowrap;
+  background: #000 url('/images/b_short.gif') repeat-x top;
+  border-left:1px solid #000;
+  border-top:1px solid #000;
+  border-bottom:1px solid #000;
+  cursor:pointer;
+  font-size:12px;
+  height:38px;
+}
+
+.menu:hover table.menu:hover td.alerts:hover {
+  background: #000 url('/images/b_short_h.gif') repeat-x top;
+  border: 1px solid #999;
+  color:#f5f212;
+}
+
+.menu table.menu td.news {
+  padding:0px 8px 0px 8px;
+  color:#60ffff;
+  white-space:nowrap;
+  background: #000 url('/images/b_short.gif') repeat-x top;
+  border-left:1px solid #000;
+  border-top:1px solid #000;
+  border-bottom:1px solid #000;
+  cursor:pointer;
+  font-size:12px;
+  height:38px;
+}
+
+.menu:hover table.menu:hover td.news:hover {
+  background: #000 url('/images/b_short_h.gif') repeat-x top;
+  border: 1px solid #999;
+  color:#60ffff;
+}
+
+.whereareyou{
+  position: relative;
+  color: #333;
+  font-weight: normal;
+  border: 1px solid #333;
+  left: 0px;
+  top: -2px;
+  font-size: 8pt;
+  padding: 4pt 8pt 3pt 8pt;
+  margin-left: 2px;
+  border-radius: 8px;
+}

@@ -1,0 +1,154 @@
+/* EasyChair style sheet
+ * (c) 2010-2018 easychair.org
+ * (c) 2020-2021 EasyChair Ltd
+ */
+
+/* green theme */
+tr:nth-child(odd).green {background-color: #e2ede4; }
+span.greenhelper {background-color: #e2ede4;}
+tr:nth-child(even).green {background-color: #e9f6ea;}
+tr:nth-child(odd).green td.high {background-color: #d5f3d5; padding: 3px 5pt;}
+tr:nth-child(even).green td.high {background-color: #d8f9d8; padding: 3px 5pt;}
+
+tr:nth-child(odd).green .value {background-color: #ebf5ec; }
+tr:nth-child(even).green .value {background-color: #f3fff3; } 
+
+/* red theme */
+tr:nth-child(odd).red {background-color: #f0e4e0;}
+span.redhelper {background-color: #f0e4e0;}
+tr:nth-child(even).red {background-color: #f7ece9;}
+tr:nth-child(odd).red td.high {background-color: #ffc4c4;padding: 3px 5pt;}
+tr:nth-child(even).red td.high {background-color: #ffd5d5;padding: 3px 5pt;}
+
+tr:nth-child(odd).red .value {background-color: #f3eae7; }
+tr:nth-child(even).red .value {background-color: #f9f3f1; } 
+
+/* blue theme */
+tr:nth-child(odd).blue {background-color: #dce4f2;}
+span.bluehelper {background-color: #dce4f2;}
+tr:nth-child(even).blue {background-color: #e5edfa;}
+tr:nth-child(odd).blue td.high {background-color: #c4c4ff;padding: 3px 5pt;}
+tr:nth-child(even).blue td.high {background-color: #d5d5ff;padding: 3px 5pt;}
+
+tr:nth-child(odd).blue .value {background-color: #ebf0f7; }
+tr:nth-child(even).blue .value {background-color: #f2f6fc; } 
+
+/* magenta theme */
+tr:nth-child(odd).magenta {background-color: #f4e1f0;}
+span.magentahelper {background-color: #f4e1f0;}
+tr:nth-child(even).magenta {background-color: #f8ebf4;}
+tr:nth-child(odd).magenta td.high {background-color: #ffc4ff;padding: 3px 5pt;}
+tr:nth-child(even).magenta td.high {background-color: #ffd5ff;padding: 3px 5pt;} 
+
+tr:nth-child(odd).magenta .value {background-color: #f7ebf5; }
+tr:nth-child(even).magenta .value {background-color: #fcf4f9; } 
+
+/* cyan theme */
+tr:nth-child(odd).cyan {background-color: #c4f2ef;}
+span.cyanhelper {background-color: #c4f2ef;}
+tr:nth-child(even).cyan {background-color: #d9fbfb;}
+tr:nth-child(odd).cyan td.high {background-color: #c4ffff;padding: 3px 5pt;}
+tr:nth-child(even).cyan td.high {background-color: #d5ffff;padding: 3px 5pt;}
+
+tr:nth-child(odd).cyan .value {background-color: #dbf8f5; }
+tr:nth-child(even).cyan .value {background-color: #f0feff; } 
+
+/** yellow theme */
+tr:nth-child(odd).yellow {background-color: #f8f5c2;}
+span.yellowhelper {background-color: #f8f5c2;}
+tr:nth-child(even).yellow {background-color: #f9fade;}
+tr:nth-child(odd).yellow td.high {background-color: #ffffc4;padding: 3px 5pt;}
+tr:nth-child(even).yellow td.high {background-color: #ffffd5;padding: 3px 5pt;}
+
+tr:nth-child(odd).yellow .value {background-color: #faf8d6; }
+tr:nth-child(even).yellow .value {background-color: #fcfced; } 
+
+/* grey theme */
+tr:nth-child(odd).grey {background-color: #e4e3e2;}
+span.greyhelper {background-color: #e4e3e2;}
+tr:nth-child(even).grey {background-color: #f0efec;}         
+tr:nth-child(odd).grey td.high {background-color: #c4c4c4;padding: 3px 5pt;}
+tr:nth-child(even).grey td.high {background-color: #d5d5d5;padding: 3px 5pt;}
+
+tr:nth-child(odd).grey .value {background-color: #ecebeb; }
+tr:nth-child(even).grey .value {background-color: #f5f5f3; } 
+
+/* stategray theme */
+tr:nth-child(odd).stategray {background-color: #c6d6d6;}
+span.stategrayhelper {background-color: #c6d6d6;}
+tr:nth-child(even).stategray {background-color: #d2e3e3;}         
+tr:nth-child(odd).stategray td.high {background-color: #a0b8b8;padding: 3px 5pt;}
+tr:nth-child(even).stategray td.high {background-color: #b0c9c9;padding: 3px 5pt;}
+
+tr:nth-child(odd).stategray .value {background-color: #d2e3e3; }
+tr:nth-child(even).stategray .value {background-color: #dbeded; } 
+
+/* cobalt theme */
+tr:nth-child(odd).cobalt {background-color: #d6e5fd;}
+span.cobalthelper {background-color: #d6e5fd;}
+tr:nth-child(even).cobalt {background-color: #e1ecfd;}         
+tr:nth-child(odd).cobalt td.high {background-color: #d6e5fd;padding: 3px 5pt;}
+tr:nth-child(even).cobalt td.high {background-color: #d6e5fd;padding: 3px 5pt;}
+
+tr:nth-child(odd).cobalt .value {background-color: #e1ecfd; }
+tr:nth-child(even).cobalt .value {background-color: #e9f1fd; } 
+
+/* violet theme */
+tr:nth-child(odd).violet {background-color: #e2e2f4;}
+span.violethelper {background-color: #e2e2f4;}
+tr:nth-child(even).violet {background-color: #eeeeff;}         
+tr:nth-child(odd).violet td.high {background-color: #e2e2f4;padding: 3px 5pt;}
+tr:nth-child(even).violet td.high {background-color: #e2e2f4;padding: 3px 5pt;}
+
+tr:nth-child(odd).violet .value {background-color: #eeeeff; }
+tr:nth-child(even).violet .value {background-color: #f7f7ff; } 
+
+/* wheat theme */
+tr:nth-child(odd).wheat {background-color: #f5deb3;}
+span.wheathelper {background-color: #f5deb3;}
+tr:nth-child(even).wheat {background-color: #fce6bd;}         
+tr:nth-child(odd).wheat td.high {background-color: #f5deb3;padding: 3px 5pt;}
+tr:nth-child(even).wheat td.high {background-color: #f5deb3;padding: 3px 5pt;}
+
+tr:nth-child(odd).wheat .value {background-color: #fce6bd; }
+tr:nth-child(even).wheat .value {background-color: #ffecc9; }
+
+/* burlywood theme */
+tr:nth-child(odd).burlywood {background-color: #ebcba2;}
+span.burlywoodhelper {background-color: #ebcba2;}
+tr:nth-child(even).burlywood {background-color: #f7d6ab;}         
+tr:nth-child(odd).burlywood td.high {background-color: #deb887;padding: 3px 5pt;}
+tr:nth-child(even).burlywood td.high {background-color: #f2c993;padding: 3px 5pt;}
+
+tr:nth-child(odd).burlywood .value {background-color: #f7d6ab; }
+tr:nth-child(even).burlywood .value {background-color: #ffe0b8; } 
+
+/* powderblue theme */
+tr:nth-child(odd).powderblue {background-color: #bdede6;}
+span.powderbluehelper {background-color: #bdede6;}
+tr:nth-child(even).powderblue {background-color: #c9f5ee;}         
+tr:nth-child(odd).powderblue td.high {background-color: #bdede6;padding: 3px 5pt;}
+tr:nth-child(even).powderblue td.high {background-color: #bdede6;padding: 3px 5pt;}
+
+tr:nth-child(odd).powderblue .value {background-color: #c9f5ee; }
+tr:nth-child(even).powderblue .value {background-color: #d1fff8; }
+
+/* lime theme */
+tr:nth-child(odd).lime {background-color: #b0f7b0;}
+span.limehelper {background-color: #b0f7b0;}
+tr:nth-child(even).lime {background-color: #bdffbd;}         
+tr:nth-child(odd).lime td.high {background-color: #78ff78;padding: 3px 5pt;}
+tr:nth-child(even).lime td.high {background-color: #78ff78;padding: 3px 5pt;}
+
+tr:nth-child(odd).lime .value {background-color: #bdffbd; }
+tr:nth-child(even).lime .value {background-color: #d4ffd4; }
+
+/* salmon theme */
+tr:nth-child(odd).salmon {background-color: #ffceba;}
+span.salmonhelper {background-color: #ffceba;}
+tr:nth-child(even).salmon {background-color: #ffdbcc;}         
+tr:nth-child(odd).salmon td.high {background-color: #ffbfa6;padding: 3px 5pt;}
+tr:nth-child(even).salmon td.high {background-color: #ffbfa6;padding: 3px 5pt;}
+
+tr:nth-child(odd).salmon .value {background-color: #ffdbcc; }
+tr:nth-child(even).salmon .value {background-color: #ffe4d9; }
